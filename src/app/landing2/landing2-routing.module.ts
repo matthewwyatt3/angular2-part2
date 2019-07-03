@@ -5,11 +5,11 @@ import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
   {path: '', component: UsersComponent},
-  {path: 'search', component: SearchComponent},
+  {path: 'search', component: SearchComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class Landing2RoutingModule { }
